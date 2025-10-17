@@ -56,3 +56,8 @@ print(y)
 logicka = True
 l2 = False
 llll = logicka and l2 or logicka
+llllllllll = logicka * l2 + logicka
+
+print(type (logicka))
+
+print (not logicka)
