@@ -4,7 +4,7 @@ for i in range (5, 9):
 for j in range (10, 4, -1):
     print(j)
 
-for j in range(6):   taky moznost
+for j in range(6):   #taky moznost
     print(10-i)
 #****************************************************************************************#
 
@@ -17,4 +17,6 @@ for m in range (5,12):
     soucet = soucet +i
 print(soucet)
 #****************************************************************************************#
+
+#index největšího prvku
 
