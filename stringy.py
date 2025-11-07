@@ -59,3 +59,5 @@ print(promenna[:5:-1])  #od posledního čísla až do 5., pozpátku
 print(promenna[::-1])   #celý po zpátku
 
 print(promenna.index(","))  #na kolikátým místě je znak v ""
+
+
