@@ -41,23 +41,23 @@ for i in range(len(promenna)):
 
     #len vrátí délku řetezce počet písmen
 print(promenna[len(promenna)-1])
-
+print("********************")
 print(promenna[-1])
-
+print("********************")
 print(promenna[5:10])   #<5;10) , slicing
-
+print("********************")
 print(promenna[5:10:2]) #2 = skok
-
+print("********************")
 print(promenna[10:5:-2])    #<10;5) krok po 2
-
+print("********************")
 print(promenna[5:]) # od pátýho prvku až do konce
-
+print("********************")
 print(promenna[:5]) # od začátku do 5. prvku <0;5)
-
+print("********************")
 print(promenna[:5:-1])  #od posledního čísla až do 5., pozpátku
-
+print("********************")
 print(promenna[::-1])   #celý po zpátku
-
+print("********************")
 print(promenna.index(","))  #na kolikátým místě je znak v ""
 
 
