@@ -119,7 +119,76 @@ for i in range(len(pole)-1,-1,-1):
 
 print(nove_pole)
 
+print("********************")
+print("********************")
+
+pole01 = [5, 2, 9, 1, 7, 3, 10, 6, 4]
+pole02 = [3, 5, 4, 7, 5, 3, 4, 5, 10]
+pole_vysledne = []
+
+for i in range (len (pole)):
+    pole_vysledne.append(pole01[i]+pole02[i])
+print (pole_vysledne)
+
+print("********************")
+print("********************")
 
 
 
+pole01 = [5, 2, 9, 1, 7, 3, 10, 6, 4]
+pole02 = [3, 5, 4, 7, 5, 3, 4, 5, 10]
+pole_vysledne = []
 
+for i in range (len (pole)):
+    pole_vysledne.append(pole01[i]+pole02[-1-i])
+print (pole_vysledne)
+
+print("********************")
+print("********************")
+
+
+pole = [5, 2, 9, 1, 7, 3, 10, 6, 4]
+maximum = -1000
+druhy = -10000
+
+for i in range (len(pole_vysledne)):
+    if pole [i] > maximum:
+        druhy = maximum
+        maximum = pole [i]
+    elif pole [i] > druhy:
+        druhy = pole [i]
+
+print(maximum)
+print (druhy)
+
+
+print(float('-inf'))
+
+print("********************")
+print("********************")
+
+pole = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+je = True
+for i in range(len(pole)-1):
+    if pole[i] > pole[i+1]:
+        je = False
+        break
+if je:
+    print("je")
+else:
+    print("není")
+
+print("********************")
+print("********************")
+
+pole = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sude = 0
+liche = 0
+for i in range(len(pole)):
+    if pole[i] % 2 == 0:
+        sude += 1
+    else:
+        liche += 1
+
+print (sude)
+print (liche)
