@@ -30,6 +30,9 @@ while True:
             pass
     else:
         print("zkus znovu číslo mimo interval")
+print("")
+print("Uhodnuté číslo je: " + str(nahodne_cislo))
 print("počet pokusů:" + str(pocet_pokusu))
+
 
 
