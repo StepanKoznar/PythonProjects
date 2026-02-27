@@ -37,3 +37,6 @@ def prvocisl (l):
     return True
 print(prvocisl(4))
 
+
+
+
